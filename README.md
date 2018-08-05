@@ -1,4 +1,4 @@
-Estimating number of 1's in a data stream using DGIM Algorithm
+Estimating number of 1's in a 0/1 data stream using DGIM Algorithm
 =====================================================
 
 
