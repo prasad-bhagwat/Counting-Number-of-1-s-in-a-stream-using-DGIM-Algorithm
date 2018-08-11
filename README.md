@@ -1,4 +1,4 @@
-Estimating number of 1's in a 0/1 data stream using DGIM Algorithm
+Estimating number of 1's in a 0/1 data stream
 =====================================================
 
 
@@ -11,7 +11,7 @@ Scala: 2.11
 
 ### Algorithm implementation approach:
 
-The code connects on _port 9999_ of _localhost_ listening for 0/1 data stream which is used by DGIM algorithm to estimate number of 1's. Every 10 seconds, while you get batch data in spark streaming we print out the number of the estimated and actual count of 1's. The percentage error of the estimated result is less than 50%.  
+Implemented DGIM algorithm for estimating number of 1's in a 0/1 data stream. The program connects on _port 9999_ of _localhost_ listening for 0/1 data stream which is used by DGIM algorithm to estimate number of 1's. Every 10 seconds, while you get batch data in spark streaming we print out the number of the estimated and actual count of 1's. The percentage error of the estimated result is less than 50%.  
 _NOTE_: First start generating the data stream of 0/1 on _port 9999_ of _localhost_ then run the program as follows:
 
 ### Python command for estimating number of 1's using DGIM Algorithm
